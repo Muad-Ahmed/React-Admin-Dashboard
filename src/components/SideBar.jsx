@@ -136,7 +136,7 @@ export default function SideBar({ handleDrawerClose, open }) {
           border: "2px solid grey",
           transition: "0.3s",
         }}
-        alt="John Doe"
+        alt="Mary Adam"
         src="/avatar.jpg"
       />
 

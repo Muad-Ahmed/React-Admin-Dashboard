@@ -83,7 +83,7 @@ const FAQ = () => {
               Advanced settings
             </Typography>
             <Typography sx={{ color: "text.secondary" }}>
-              Filtering has been entirely disabled for whole web server
+              Filtering has been entirely disabled for the whole web server
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -177,7 +177,7 @@ const FAQ = () => {
               Advanced settings
             </Typography>
             <Typography sx={{ color: "text.secondary" }}>
-              Filtering has been entirely disabled for whole web server
+              Filtering has been entirely disabled for the whole web server
             </Typography>
           </AccordionSummary>
           <AccordionDetails>

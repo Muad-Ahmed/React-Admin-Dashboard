@@ -36,10 +36,10 @@ const data = [
   },
 ];
 
-const Pie = ({ isDashbord = false }) => {
+const Pie = ({ isDashboard = false }) => {
   const theme = useTheme();
   return (
-    <Box sx={{ height: isDashbord ? "200px" : "75vh" }}>
+    <Box sx={{ height: isDashboard ? "200px" : "75vh" }}>
       <ResponsivePie
         data={data}
         theme={{
@@ -139,11 +139,11 @@ const Pie = ({ isDashbord = false }) => {
           },
         }}
         margin={
-          isDashbord
+          isDashboard
             ? { top: 10, right: 0, bottom: 10, left: 0 }
             : { top: 40, right: 80, bottom: 80, left: 80 }
         }
-        innerRadius={isDashbord ? 0.8 : 0.5}
+        innerRadius={isDashboard ? 0.8 : 0.5}
         padAngle={0.7}
         cornerRadius={3}
         activeOuterRadiusOffset={8}
@@ -158,8 +158,8 @@ const Pie = ({ isDashbord = false }) => {
         arcLinkLabelsThickness={2}
         arcLinkLabelsColor={{ from: "color" }}
         arcLabelsSkipAngle={10}
-        enableArcLabels={isDashbord ? false : true}
-        enableArcLinkLabels={isDashbord ? false : true}
+        enableArcLabels={isDashboard ? false : true}
+        enableArcLinkLabels={isDashboard ? false : true}
         arcLabelsTextColor={{
           from: "color",
           modifiers: [["darker", 2]],
@@ -235,7 +235,7 @@ const Pie = ({ isDashbord = false }) => {
           },
         ]}
         legends={
-          isDashbord
+          isDashboard
             ? []
             : [
                 {

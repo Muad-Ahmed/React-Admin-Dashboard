@@ -222,10 +222,10 @@ const data = [
   },
 ];
 
-const Line = ({ isDahboard = false }) => {
+const Line = ({ isDashboard = false }) => {
   const theme = useTheme();
   return (
-    <Box sx={{ height: isDahboard ? "280px" : "75vh" }}>
+    <Box sx={{ height: isDashboard ? "280px" : "75vh" }}>
       <ResponsiveLine
         theme={{
           text: {
@@ -341,7 +341,7 @@ const Line = ({ isDahboard = false }) => {
           tickSize: 5,
           tickPadding: 5,
           tickRotation: 0,
-          legend: isDahboard ? null : "transportation",
+          legend: isDashboard ? null : "transportation",
           legendOffset: 36,
           legendPosition: "middle",
         }}
@@ -349,7 +349,7 @@ const Line = ({ isDahboard = false }) => {
           tickSize: 5,
           tickPadding: 5,
           tickRotation: 0,
-          legend: isDahboard ? null : "Count",
+          legend: isDashboard ? null : "Count",
           legendOffset: -45,
           legendPosition: "middle",
         }}

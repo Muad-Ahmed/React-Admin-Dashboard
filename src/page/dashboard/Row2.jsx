@@ -45,7 +45,7 @@ const Row2 = () => {
           </Box>
         </Stack>
 
-        <Line isDahboard={true} />
+        <Line isDashboard={true} />
       </Paper>
 
       <Box

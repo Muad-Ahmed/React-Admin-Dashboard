@@ -4,18 +4,18 @@ import { Box, useTheme } from "@mui/material";
 import { data } from "./data";
 import { geo } from "./world_countries";
 
-const Geo = ({ isDashbord = false }) => {
+const Geo = ({ isDashboard = false }) => {
   const theme = useTheme();
   return (
     <Box
       sx={{
         borderRadius: "5px",
-        height: isDashbord ? "350px" : "75vh",
-        border: isDashbord ? null : `1px solid ${theme.palette.text.primary}`,
+        height: isDashboard ? "350px" : "75vh",
+        border: isDashboard ? null : `1px solid ${theme.palette.text.primary}`,
       }}
     >
       <ResponsiveChoropleth
-        projectionScale={isDashbord ? 70 : 150}
+        projectionScale={isDashboard ? 70 : 150}
         data={data}
         features={geo.features}
         margin={{ top: 0, right: 0, bottom: 0, left: 0 }}
@@ -128,7 +128,7 @@ const Geo = ({ isDashbord = false }) => {
           },
         }}
         legends={
-          isDashbord
+          isDashboard
             ? []
             : [
                 {

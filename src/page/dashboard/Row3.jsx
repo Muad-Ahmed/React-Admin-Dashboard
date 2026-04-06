@@ -17,7 +17,7 @@ const Row3 = () => {
           Campaign
         </Typography>
 
-        <Pie isDashbord={true} />
+        <Pie isDashboard={true} />
         <Typography variant="h6" align="center" sx={{ mt: "15px" }}>
           $48,352 revenue generated
         </Typography>
@@ -37,7 +37,7 @@ const Row3 = () => {
         </Typography>
 
 
-<Bar isDashbord={true} />
+<Bar isDashboard={true} />
 
 
       </Paper>
@@ -45,7 +45,7 @@ const Row3 = () => {
       <Paper sx={{flexGrow: 1,minWidth: "400px", width: "33%",  }}>
         
 
-      <Geo isDashbord={true} />
+      <Geo isDashboard={true} />
       </Paper>
     </Stack>
   );
