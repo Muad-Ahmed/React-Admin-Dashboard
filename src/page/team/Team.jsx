@@ -12,7 +12,7 @@ import Header from "../../components/Header";
 const Team = () => {
   const theme = useTheme();
 
-  // field ==> Reqird
+  // field ==> Required
   const columns = [
     {
       field: "id",
@@ -23,28 +23,28 @@ const Team = () => {
     },
     {
       field: "name",
-      headerName: "name",
+      headerName: "Name",
       align: "center",
       headerAlign: "center",
     },
     {
       field: "email",
-      headerName: "email",
+      headerName: "Email",
       flex: 1,
       align: "center",
       headerAlign: "center",
     },
-    { field: "age", headerName: "age", align: "center", headerAlign: "center" },
+    { field: "age", headerName: "Age", align: "center", headerAlign: "center" },
     {
       field: "phone",
-      headerName: "phone",
+      headerName: "Phone",
       flex: 1,
       align: "center",
       headerAlign: "center",
     },
     {
       field: "access",
-      headerName: "access",
+      headerName: "Access",
       flex: 1,
       align: "center",
       headerAlign: "center",
